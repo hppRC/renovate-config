@@ -22,7 +22,7 @@
         }
       ]
     },
-    "maintainance": {
+    "maintenance": {
       "extends": [
         "config:base",
         "schedule:weekly"
