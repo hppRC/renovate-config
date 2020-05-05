@@ -1,6 +1,6 @@
 {
   "name": "@hpprc/renovate-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "scripts": {
     "test": "renovate-config-validator"
@@ -9,20 +9,15 @@
     "default": {
       "extends": [
         "config:base"
-      ],
-      "packageRules": [
-        {
-          "updateTypes": [
-            "minor",
-            "patch",
-            "pin",
-            "digest"
-          ],
-          "automerge": true
-        }
       ]
     },
     "maintenance": {
+      "extends": [
+        "config:base",
+        "schedule:weekly"
+      ]
+    },
+    "auto-maintenance": {
       "extends": [
         "config:base",
         "schedule:weekly"
