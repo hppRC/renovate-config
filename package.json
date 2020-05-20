@@ -9,6 +9,9 @@
     "default": {
       "extends": [
         "config:base"
+      ],
+      "assignees": [
+        "hppRC"
       ]
     },
     "maintenance": {
