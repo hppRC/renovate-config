@@ -23,6 +23,9 @@
           "automerge": true,
           "commitMessagePrefix": "[skip ci]"
         }
+      ],
+      "assignees": [
+        "hppRC"
       ]
     }
   },
